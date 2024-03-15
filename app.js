@@ -28,3 +28,11 @@ for (let n = 1; n < 20; n++ ){
 }
 
 // Print all prime numbers between 0 and 20.
+for (let n = 1; n < 20; n++){
+    if(n === 2){
+        console.log(n)
+    }
+    else if (n % 2 !== 0){
+        console.log(n)
+    }
+}

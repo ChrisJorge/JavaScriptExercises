@@ -1,10 +1,17 @@
 // Count down to 0 from a given number.
-let n = 20
-for (n; n > 0; n-- ){
-    console.log(n)
+
+for (let n = 20; n > 0; n-- ){
+    console.log(n);
 }
 // Log integers in multiples of 3 as long as they are less than 35.
-
+for (let n = 0; n < 35; n++){
+    if(n % 3 === 0){
+        console.log(n);
+    }
+    else{
+        continue;
+    }
+}
 // Print integers in multiples of 5 as long as they are less than 100.
 
 // Print integers between 0 and 20 with the following conditions:

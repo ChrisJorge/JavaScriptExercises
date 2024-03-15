@@ -19,9 +19,12 @@ for (let n = 0; n < 100; n++){
     }
 }
 // Print integers between 0 and 20 with the following conditions:
-
-// All numbers divisible by 2 should be multiplied by 3 before they are output.
-
-// All other integers should not be output.
+for (let n = 1; n < 20; n++ ){
+    // All numbers divisible by 2 should be multiplied by 3 before they are output.
+    if(n % 2 === 0){
+        console.log(n * 3)
+    }
+    // All other integers should not be output.
+}
 
 // Print all prime numbers between 0 and 20.
